@@ -1,0 +1,76 @@
+{
+	"response": {
+		"code": 200,
+		"page": {
+			"type": "method",
+			"contents": {
+				"params_common_description": "Если указанный пользователь является другом текущего пользователя или имеет от него входящую или исходящую заявку в друзья, то для добавления пользователя в черный список Ваше приложение должно иметь права: `friends`. [(Подробнее о получении прав)](reference/access-rights)",
+				"result_description": "После успешного выполнения возвращает `1`.",
+				"text": "\n",
+				"title": "account.ban",
+				"description": "Добавляет пользователя или группу в черный список.",
+				"path": "method/account.ban",
+				"menu_id": "api_menu",
+				"type": "method",
+				"errors": [],
+				"params": [
+					{
+						"description": "",
+						"type": "positive",
+						"from_version": "",
+						"deprecated_from_version": "",
+						"is_required": false,
+						"default_value": "",
+						"console_value": "",
+						"name": "user_id",
+						"is_hidden": true
+					},
+					{
+						"description": "Идентификатор пользователя или сообщества, которое будет добавлено в черный список.",
+						"type": "integer",
+						"from_version": "",
+						"deprecated_from_version": "",
+						"is_required": false,
+						"default_value": "",
+						"console_value": "",
+						"name": "owner_id"
+					}
+				],
+				"properties": { "is_deprecated": false, "alternatives": [] },
+				"console_result": "",
+				"linked_methods": [],
+				"linked_versions": [
+					{
+						"title": "4.11",
+						"description": "ТЕСТОВАЯ ВЕРСИЯ",
+						"path": "",
+						"menu_id": "",
+						"type": "",
+						"page_id": "version/4.11",
+						"is_hidden": true
+					}
+				],
+				"linked": [
+					{
+						"title": "4.11",
+						"description": "ТЕСТОВАЯ ВЕРСИЯ",
+						"path": "",
+						"menu_id": "",
+						"type": "",
+						"page_id": "version/4.11",
+						"is_hidden": true
+					}
+				],
+				"page_id": "account.ban",
+				"is_hidden": false,
+				"can_edit": false,
+				"is_migration_allowed": false,
+				"is_searchable": true,
+				"is_direct_access": false,
+				"redirect_to": "",
+				"access_rights": ["ex"],
+				"token_types": ["is_standalone"]
+			}
+		}
+	}
+}
